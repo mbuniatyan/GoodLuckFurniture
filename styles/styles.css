@@ -1,0 +1,101 @@
+body {
+	font-family: 'Montserrat', sans-serif;
+	margin: 0;
+}
+
+ul {
+	list-style-type: none;
+}
+
+.hidden {
+	display: none;
+}
+
+.top-header {
+	font-size: 12px;
+	font-weight: 400;
+	color: #FFF;
+	background-color: #229688;
+}
+
+.top-header p {
+	margin: 0;
+	padding: 10px 50px;
+}
+
+.logo-wrapper {
+	display: flex;
+	justify-content: center;
+}
+
+#logo {
+	height: 290px;
+}
+.nav-wrapper {
+	padding: 20px;
+}
+
+nav {
+	display: flex;
+	justify-content: center;
+	border-top: solid 1px #94969c;
+}
+
+nav ul {
+	display: flex;
+	padding: 0;
+}
+
+nav ul li {
+	margin: 10px;
+}
+
+
+.nav-link {
+	text-decoration: none;
+	text-transform: uppercase;
+	color: #229688;
+	font-weight: 500;
+	font-size: 22px;
+	transition: color .3s ease;
+}
+
+.nav-link:hover {
+	color: #54bdb0;
+}
+
+.banner {
+	height: 35vh;
+	background-image: url(../images/banner.jpg);
+	background-size: cover;
+	background-position: center 80%;
+}
+.products-list {
+	display: flex;
+	justify-content: center;
+}
+
+.product {
+	margin: 10px 20px;
+	height: 240px;
+	width: 240px;
+	overflow: hidden;
+}
+
+.product img {
+	height: 240px;
+	width: 240px;
+}
+
+h2	{
+	margin: 36px 0;
+	text-align: center;
+	font-family: "Dancing script", serif ;
+	font-size: 64px;
+	color: #229688;
+}
+
+
+
+
+
